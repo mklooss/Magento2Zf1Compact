@@ -1,0 +1,20 @@
+{
+  "name": "loewenstark/magento_zend_compact",
+  "description": "Compact Modules",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0|~7.4.0|~8.1.0|~8.2.0",
+    "laminas/laminas-db": "*",
+    "laminas/laminas-inputfilter": "*",
+    "laminas/laminas-json": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/Zend"
+    ]
+  }
+}
